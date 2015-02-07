@@ -1,0 +1,30 @@
+Name: HAMtower
+Summary: HAMtower - mobile client for Finnish amateur radio repeater/beacon database
+Version: 0.9
+Release: 1
+Group: Qt/Qt
+URL: http://www.iki.fi/~llatva/hamtower/
+License: GPLv2
+Sources:
+- '%{name}-%{version}.tar.bz2'
+Description: |-
+  HAMtower is a mobile client for the Finnish amateur radio (HAM) repeater/beacon database automatic.sral.fi.
+Configure: none
+Builder: qtc5
+PkgConfigBR:
+- Qt5Quick
+- Qt5Qml
+- Qt5Core
+- sailfishapp >= 0.0.10
+Requires:
+- sailfishsilica-qt5 >= 0.10.9
+Files:
+- '%{_bindir}'
+- '%{_datadir}/%{name}/qml'
+- '%{_datadir}/applications/%{name}.desktop'
+- '%{_datadir}/icons/hicolor/86x86/apps/%{name}.png'
+- /usr/bin
+- /usr/share/HAMtower
+- /usr/share/applications
+- /usr/share/icons/hicolor/86x86/apps
+PkgBR: []
