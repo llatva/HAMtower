@@ -42,7 +42,7 @@ ApplicationWindow {
 
     JSONListModel {
         id: jsonDataModel
-        source: "http://automatic.sral.fi/api-v1.php?query=list&apikey=asf-b682122d388fd72f9fb7c760a56866d1"
+        source: "https://automatic.sral.fi/api-v1.php?query=list&apikey=asf-b682122d388fd72f9fb7c760a56866d1"
         query: "$.stations[*]"
     }
 

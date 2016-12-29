@@ -51,7 +51,7 @@ Page {
             color: Theme.highlightColor
             font.family: Theme.primaryColor
             x: Theme.paddingLarge
-            text: "HAMtower version 0.9"
+            text: "HAMtower version 0.99"
         }
 
         Label {
